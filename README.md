@@ -1,21 +1,19 @@
-# Chatbot
+# Bot CLI Task Manager
 
-**TODO: Add description**
+Простой консольный менеджер задач на Elixir.  
+Поддерживает добавление, удаление, поиск, фильтрацию, редактирование и экспорт задач.
 
-## Installation
-
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-by adding `chatbot` to your list of dependencies in `mix.exs`:
-
-```elixir
-def deps do
-  [
-    {:chatbot, "~> 0.1.0"}
-  ]
-end
-```
-
-Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
-and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
-be found at <https://hexdocs.pm/chatbot>.
-
+## Возможности
+- Добавление задач с полями:
+  - **title**
+  - **deadline**
+  - **category**
+  - **priority**
+  - **recurring**
+- Список всех задач: `task list`
+- Ближайшие дедлайны: `task upcoming`
+- Поиск по тексту: `task search TEXT`
+- Фильтрация по категории: `task filter CATEGORY`
+- Редактирование: `task edit ID ...`
+- Удаление: `task delete ID`
+- Экспорт в `tasks.json` и `tasks.txt`: `task export`
