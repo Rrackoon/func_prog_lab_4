@@ -1,0 +1,2 @@
+ID=1 | title=матан | category=универ | priority=- | recurring=- | deadline=2025-12-05
+ID=2 | title=лаба | category=фп | priority=high | recurring=- | deadline=2025-12-06

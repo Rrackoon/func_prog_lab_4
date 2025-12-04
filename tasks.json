@@ -1,0 +1,18 @@
+[
+  {
+    "id": 1,
+    "priority": null,
+    "title": "матан",
+    "deadline": "2025-12-05",
+    "category": "универ",
+    "recurring": null
+  },
+  {
+    "id": 2,
+    "priority": "high",
+    "title": "лаба",
+    "deadline": "2025-12-06",
+    "category": "фп",
+    "recurring": null
+  }
+]
