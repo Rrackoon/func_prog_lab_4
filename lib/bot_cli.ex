@@ -3,7 +3,6 @@ defmodule Bot.CLI do
   alias Bot.Storage
 
   def main do
-    # Ничего НЕ запускаем — всё стартует Supervisor
     loop()
   end
 

@@ -193,7 +193,6 @@ defmodule Bot.Storage do
     {:reply, res, state}
   end
 
-  ## Helpers
 
   defp maybe_date_for_sort(nil), do: ~D[9999-12-31]
   defp maybe_date_for_sort(%Date{} = d), do: d
